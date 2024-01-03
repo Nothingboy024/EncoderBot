@@ -76,15 +76,15 @@ BUTTONS_VCODEC = IKM(
 BUTTONS_DEV = IKM(
     [
         [
-            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/sohailkhan_indianime'),
-            IKB('ɢɪᴛʜᴜʙ', url = 'https://github.com/soheru')
+            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/ItzMonkeyDLuffy'),
+            IKB('Anime', url = 'https://t.me/AnimeStation2')
         ],
         [
-            IKB('ᴡᴇʙsɪᴛᴇ', url='https://teamyokai.tech'),
-            IKB('ᴄʜᴀɴɴᴇʟ', url='https://t.me/aboutmesk'),
+            IKB('Ongoing', url='https://t.me/Ongoinganimestation'),
+            IKB('Group', url='https://t.me/Animestation_Chat_Group'),
         ],
         [
-            IKB('ɪɴsᴛᴀɢʀᴀᴍ', url='https://instagram.com/_soheru'),
+            IKB('Developer☠️', url='https://t.me/ItzMonkeyDLuffy'),
             IKB('ʜᴇʟᴘ', 'answer_help')
         ]
     ]
