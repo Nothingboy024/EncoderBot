@@ -76,16 +76,16 @@ BUTTONS_VCODEC = IKM(
 BUTTONS_DEV = IKM(
     [
         [
-            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/ItzMonkeyDLuffy'),
-            IKB('Anime', url = 'https://t.me/AnimeStation2')
+            IKB('ᴅᴇᴠᴇʟᴏᴘᴇʀ❤️', url='t.me/ItzMonkeyDLuffy'),
+            IKB('Anime🎉', url = 'https://t.me/AnimeStation2')
         ],
         [
-            IKB('Ongoing', url='https://t.me/Ongoinganimestation'),
-            IKB('Group', url='https://t.me/Animestation_Chat_Group'),
+            IKB('Ongoing⏰', url='https://t.me/Ongoinganimestation'),
+            IKB('Group😐', url='https://t.me/Animestation_Chat_Group'),
         ],
         [
-            IKB('Developer☠️', url='https://t.me/ItzMonkeyDLuffy'),
-            IKB('ʜᴇʟᴘ', 'answer_help')
+            IKB('Developer💥', url='t.me/ItzMonkeyDLuffy'),
+            IKB('ʜᴇʟᴘ🌚', 'answer_help')
         ]
     ]
 )
@@ -229,27 +229,27 @@ async def callback_answer(client:Client, callback_query):
         await callback_query.message.edit(text, reply_markup=BUTTONS_HELP) 
     elif 'crf' in callback_query.data:
         text = '**To change the video crf of this bot, use the buttons given below**.\n\n'
-        text += f'**Your current video crf  is** : `{check_crf_mdb(callback_query.from_user.id)}`\n\n**[Created By Soheru](https://t.me/aboutmesk)**'
+        text += f'**Your current video crf  is** : `{check_crf_mdb(callback_query.from_user.id)}`\n\n**[Created By @ItzMonkeyDLuffy](t.me/ItzMonkeyDLuffy)**'
         await callback_query.message.edit(text, reply_markup=BUTTONS_CRF) 
     elif 'resolution' in callback_query.data:
         text = '**To change the video resolution of this bot, use the buttons given below**.\n\n'
-        text += f'**Your current video resolution is** : `{check_resolution_settings(callback_query.from_user.id)}`\n\n**[Created By Soheru](https://t.me/aboutmesk)**'
+        text += f'**Your current video resolution is** : `{check_resolution_settings(callback_query.from_user.id)}`\n\n**[Created By @ItzMonkeyDLuffy](t.me/ItzMonkeyDLuffy)**'
         await callback_query.message.edit(text, reply_markup=BUTTONS_RESOLUTIONS) 
     elif 'audio' in callback_query.data:  
         text = '**To change the audio type of this bot, use the buttons given below**.\n\n'
-        text += f'**Your current audio type is** : `{check_audio_type_mdb(callback_query.from_user.id)}`\n\n**[Created By Soheru](https://t.me/aboutmesk)**'  
+        text += f'**Your current audio type is** : `{check_audio_type_mdb(callback_query.from_user.id)}`\n\n**[Created By @ItzMonkeyDLuffyu](t.me/ItzMonkeyDLuffy)**'  
         await callback_query.message.edit(text, reply_markup=BUTTONS_AUDIO) 
     elif 'vcodec' in callback_query.data:  
         text = '**To change the video codec of this bot, use the buttons given below**.\n\n'
-        text += f'**Your current video codec is** : `{check_vcodec_settings(callback_query.from_user.id)}`\n\n**[Created By Soheru](https://t.me/aboutmesk)**'  
+        text += f'**Your current video codec is** : `{check_vcodec_settings(callback_query.from_user.id)}`\n\n**[Created By @ItzMonkeyDLuffy](t.me/ItzMonkeyDLuffy)**'  
         await callback_query.message.edit(text, reply_markup=BUTTONS_VCODEC)  
     elif 'preset' in callback_query.data:  
         text = '**To change the video preset of this bot, use the buttons given below**.\n\n'
-        text += f'**Your current video preset is** : `{check_preset_settings(callback_query.from_user.id)}`\n\n**[Created By Soheru](https://t.me/aboutmesk)**'  
+        text += f'**Your current video preset is** : `{check_preset_settings(callback_query.from_user.id)}`\n\n**[Created By @ItzMonkeyDLuffy](t.me/ItzMonkeyDLuffy)**'  
         await callback_query.message.edit(text, reply_markup=BUTTONS_PRESET) 
     elif 'about_dev' in callback_query.data:
         text = f'Hello `{callback_query.from_user.first_name}`,\n\n'
-        text += "I'm Sohail\nTo connect with me, Check Below Buttons"
+        text += "I'm @ItzMonkeyDLuffy\nTo connect with me, Check Below Buttons"
         await callback_query.message.edit(text,reply_markup=BUTTONS_DEV)    
     await callback_query.answer('Your Query Processed.')   
               
